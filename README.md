@@ -36,10 +36,14 @@ streamlit run app.py
 
 - Click **Classify** to see the predicted digit.
 ## 🗂️ Project Structure
-``` File/Folder	Description
-app.py	Streamlit web app frontend
-models/logistic_regression_mnist_model.pkl	Trained Logistic Regression model
-requirements.txt	Python dependencies
+```
+Digit-classifier/
+├── app.py # Streamlit web application script
+├── models/
+│ └── logistic_regression_mnist_model.pkl # Trained Logistic Regression model
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── .gitignore # Git ignore rules
 ```
 ## 📊 Model Details
 - Dataset: MNIST handwritten digits (70,000 images)
